@@ -1,5 +1,5 @@
 .home-container {
-  padding-top: 100px;
+  padding-top: 11px;
   height: calc(100vh - 254px);
 }
 
@@ -55,10 +55,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .home-container {
-    height: auto;
-    margin-bottom: 50px;
-  }
 
   .home-content {
     flex-direction: column-reverse;
@@ -88,8 +84,8 @@
 }
 
 @media (max-height: 700px) {
-  .home-container {
-    height: auto;
-    margin-bottom: 30px;
+  
+  .home-content {
+    margin-bottom: 40px;
   }
 }
